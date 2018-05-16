@@ -25677,3 +25677,31 @@ ion-navbar.toolbar {
   min-height: calc(46px + constant(safe-area-inset-bottom));
   min-height: calc(46px + env(safe-area-inset-bottom));
 }
+
+.body {
+  padding: 50px;
+}
+
+.modal-dialog {
+  width: 300px;
+}
+
+.modal-footer {
+  height: 70px;
+  margin: 0;
+}
+
+.modal-footer .btn {
+  font-weight: bold;
+}
+
+.modal-footer .progress {
+  display: none;
+  height: 32px;
+  margin: 0;
+}
+
+.input-group-addon {
+  color: #fff;
+  background: #3276B1;
+}
