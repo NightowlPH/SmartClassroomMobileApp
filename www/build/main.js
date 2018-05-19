@@ -68,7 +68,7 @@ var HomePage = /** @class */ (function () {
     }
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-home',template:/*ion-inline-start:"C:\Users\Ezaki\Documents\MyProjects\SmartClassroomMobileApp\src\pages\home\home.html"*/'<ion-content padding>\n\n    <page-login></page-login>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Ezaki\Documents\MyProjects\SmartClassroomMobileApp\src\pages\home\home.html"*/
+            selector: 'page-home',template:/*ion-inline-start:"C:\Users\User\Desktop\Ellaine\SmartClassroomMobileApp\src\pages\home\home.html"*/'<ion-content padding>\n\n    <page-login></page-login>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\User\Desktop\Ellaine\SmartClassroomMobileApp\src\pages\home\home.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], HomePage);
@@ -119,7 +119,7 @@ var LoginPage = /** @class */ (function () {
     };
     LoginPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-login',template:/*ion-inline-start:"C:\Users\Ezaki\Documents\MyProjects\SmartClassroomMobileApp\src\pages\login\login.html"*/'<!--\n\n  Generated template for the LoginPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-content padding>\n\n  <form>\n\n    <ion-label header> LOG IN </ion-label>\n\n    <ion-item>\n\n      <ion-label stacked>Username</ion-label>\n\n      <ion-input type="text"></ion-input>\n\n    </ion-item>\n\n  \n\n    <ion-item>\n\n      <ion-label stacked>Password</ion-label>\n\n      <ion-input type="password"></ion-input>\n\n    </ion-item>\n\n\n\n    <button ion-button (click)="login()">Login</button>\n\n  </form>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Ezaki\Documents\MyProjects\SmartClassroomMobileApp\src\pages\login\login.html"*/,
+            selector: 'page-login',template:/*ion-inline-start:"C:\Users\User\Desktop\Ellaine\SmartClassroomMobileApp\src\pages\login\login.html"*/'<!--\n\n  Generated template for the LoginPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-content padding>\n\n  <form>\n\n    <!-- <ion-label header> LOG IN </ion-label> -->\n\n    <ion-item>\n\n      <ion-label stacked>Username</ion-label>\n\n      <ion-input type="text"></ion-input>\n\n    </ion-item>\n\n  \n\n    <ion-item>\n\n      <ion-label stacked>Password</ion-label>\n\n      <ion-input type="password"></ion-input>\n\n    </ion-item>\n\n\n\n    <button ion-button (click)="login()">Login</button>\n\n  </form>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\User\Desktop\Ellaine\SmartClassroomMobileApp\src\pages\login\login.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
     ], LoginPage);
@@ -249,7 +249,7 @@ var MyApp = /** @class */ (function () {
         });
     }
     MyApp = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\Ezaki\Documents\MyProjects\SmartClassroomMobileApp\src\app\app.html"*/'<ion-nav [root]="rootPage"></ion-nav>'/*ion-inline-end:"C:\Users\Ezaki\Documents\MyProjects\SmartClassroomMobileApp\src\app\app.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\User\Desktop\Ellaine\SmartClassroomMobileApp\src\app\app.html"*/'<ion-nav [root]="rootPage"></ion-nav>'/*ion-inline-end:"C:\Users\User\Desktop\Ellaine\SmartClassroomMobileApp\src\app\app.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
     ], MyApp);
@@ -294,7 +294,7 @@ var RoomPage = /** @class */ (function () {
     };
     RoomPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-room',template:/*ion-inline-start:"C:\Users\Ezaki\Documents\MyProjects\SmartClassroomMobileApp\src\pages\room\room.html"*/'<!--\n\n  Generated template for the RoomPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n\n\n<ion-content>\n\n  <ion-card>\n\n    <ion-card-header>\n\n      Room 1\n\n    </ion-card-header>\n\n    <ion-card-content>\n\n      Description\n\n    </ion-card-content>\n\n  </ion-card>\n\n  \n\n  <ion-card>\n\n    <ion-card-header>\n\n      Room 2\n\n    </ion-card-header>\n\n    <ion-card-content>\n\n      Description 2\n\n    </ion-card-content>\n\n  </ion-card>\n\n</ion-content>\n\n  \n\n'/*ion-inline-end:"C:\Users\Ezaki\Documents\MyProjects\SmartClassroomMobileApp\src\pages\room\room.html"*/,
+            selector: 'page-room',template:/*ion-inline-start:"C:\Users\User\Desktop\Ellaine\SmartClassroomMobileApp\src\pages\room\room.html"*/'<!--\n\n  Generated template for the RoomPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n\n\n<ion-content>\n\n  <ion-card>\n\n    <ion-card-header>\n\n      Room 1\n\n    </ion-card-header>\n\n    <ion-card-content>\n\n      Description\n\n    </ion-card-content>\n\n  </ion-card>\n\n  \n\n  <ion-card>\n\n    <ion-card-header>\n\n      Room 2\n\n    </ion-card-header>\n\n    <ion-card-content>\n\n      Description 2\n\n    </ion-card-content>\n\n  </ion-card>\n\n</ion-content>\n\n  \n\n'/*ion-inline-end:"C:\Users\User\Desktop\Ellaine\SmartClassroomMobileApp\src\pages\room\room.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
     ], RoomPage);
