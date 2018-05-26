@@ -1,23 +1,33 @@
-.padding{
-    padding: 50px;
-}
-.modal-dialog {
-    width: 300px;
-}
-.modal-footer {
-    height: 70px;
-    margin: 0;
-}
-.modal-footer .btn {
-    font-weight: bold;
-}
-.modal-footer .progress {
-    display: none;
-    height: 32px;
-    margin: 0;
-}
-.input-group-addon {
-    color: #fff;
-    background: #3276B1;
+// .padding{
+//     padding: 50px;
+// }
+// .modal-dialog {
+//     width: 300px;
+// }
+// .modal-footer {
+//     height: 70px;
+//     margin: 0;
+// }
+// .modal-footer .btn {
+//     font-weight: bold;
+// }
+// .modal-footer .progress {
+//     display: none;
+//     height: 32px;
+//     margin: 0;
+// }
+// .input-group-addon {
+//     color: #fff;
+//     background: #3276B1;
+// }
+
+.login-box {
+    display: flex !important;
+justify-content: center !important;
+align-items: center !important;
+height: 100%;
 }
 
+.my-label {
+    font-size: 15px !important;
+}

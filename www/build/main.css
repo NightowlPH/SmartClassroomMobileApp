@@ -25678,30 +25678,22 @@ ion-navbar.toolbar {
   min-height: calc(46px + env(safe-area-inset-bottom));
 }
 
-.padding {
-  padding: 50px;
+.login-box {
+  display: -webkit-box !important;
+  display: -webkit-flex !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: center !important;
+  -webkit-justify-content: center !important;
+  -ms-flex-pack: center !important;
+  justify-content: center !important;
+  -webkit-box-align: center !important;
+  -webkit-align-items: center !important;
+  -ms-flex-align: center !important;
+  align-items: center !important;
+  height: 100%;
 }
 
-.modal-dialog {
-  width: 300px;
-}
-
-.modal-footer {
-  height: 70px;
-  margin: 0;
-}
-
-.modal-footer .btn {
-  font-weight: bold;
-}
-
-.modal-footer .progress {
-  display: none;
-  height: 32px;
-  margin: 0;
-}
-
-.input-group-addon {
-  color: #fff;
-  background: #3276B1;
+.my-label {
+  font-size: 15px !important;
 }

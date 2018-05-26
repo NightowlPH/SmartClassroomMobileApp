@@ -52,7 +52,6 @@ module.exports = webpackAsyncContext;
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(39);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -63,19 +62,17 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
-
+// import { NavController } from 'ionic-angular';
 var HomePage = /** @class */ (function () {
-    function HomePage(navCtrl) {
-        this.navCtrl = navCtrl;
+    function HomePage() {
     }
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-home',template:/*ion-inline-start:"C:\Users\User\Desktop\Ellaine\SmartClassroomMobileApp\src\pages\home\home.html"*/'<ion-content padding>\n\n    <page-login></page-login>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\User\Desktop\Ellaine\SmartClassroomMobileApp\src\pages\home\home.html"*/
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]) === "function" && _a || Object])
+        __metadata("design:paramtypes", [])
     ], HomePage);
     return HomePage;
-    var _a;
 }());
 
 //# sourceMappingURL=home.js.map
@@ -122,7 +119,7 @@ var LoginPage = /** @class */ (function () {
     };
     LoginPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-login',template:/*ion-inline-start:"C:\Users\User\Desktop\Ellaine\SmartClassroomMobileApp\src\pages\login\login.html"*/'<!--\n\n  Generated template for the LoginPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<!-- <ion-content> -->\n\n  <form>\n\n    <!-- <ion-label header> LOG IN </ion-label> -->\n\n    <!-- <ion-content overflow-scroll="false"></ion-content> -->\n\n\n\n    <ion-item>\n\n      <ion-label stacked>Username</ion-label>\n\n      <ion-input type="text"></ion-input>\n\n    </ion-item>\n\n  \n\n    <ion-item>\n\n      <ion-label stacked>Password</ion-label>\n\n      <ion-input type="password"></ion-input>\n\n    </ion-item>\n\n\n\n    <button ion-button (click)="login()">Login</button>\n\n\n\n  </form>\n\n<!-- </ion-content> -->\n\n'/*ion-inline-end:"C:\Users\User\Desktop\Ellaine\SmartClassroomMobileApp\src\pages\login\login.html"*/,
+            selector: 'page-login',template:/*ion-inline-start:"C:\Users\User\Desktop\Ellaine\SmartClassroomMobileApp\src\pages\login\login.html"*/'<!--\n\n  Generated template for the LoginPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n\n\n<!-- <ion-content> -->\n\n  <!-- <ion-label header> LOG IN </ion-label> -->\n\n  <!-- <ion-content overflow-scroll="false"></ion-content> -->\n\n  <!-- <form>\n\n    \n\n    <ion-item>\n\n      <ion-label stacked>Username</ion-label>\n\n      <ion-input type="text"></ion-input>\n\n    </ion-item>\n\n  \n\n    <ion-item>\n\n      <ion-label stacked>Password</ion-label>\n\n      <ion-input type="password"></ion-input>\n\n    </ion-item>\n\n\n\n    <button ion-button (click)="login()">Login</button>\n\n\n\n  </form> -->\n\n<!-- </ion-content> -->\n\n  \n\n<div class="login-box">\n\n  <form (ngSubmit)="login()" #registerForm="ngForm">\n\n    <ion-row>\n\n      <ion-col>\n\n        <ion-list inset>\n\n              \n\n              <ion-item>\n\n                <ion-label stacked class="my-label">Username</ion-label>\n\n                <ion-input type="text"></ion-input>\n\n              </ion-item>\n\n            \n\n              <ion-item>\n\n                <ion-label stacked class="my-label">Password</ion-label>\n\n                <ion-input type="password"></ion-input>\n\n              </ion-item>\n\n          \n\n              <button ion-button (click)="login()">Login</button>\n\n              \n\n        </ion-list>\n\n      </ion-col>\n\n    </ion-row>\n\n  </form>\n\n</div>'/*ion-inline-end:"C:\Users\User\Desktop\Ellaine\SmartClassroomMobileApp\src\pages\login\login.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
     ], LoginPage);
