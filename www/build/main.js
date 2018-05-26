@@ -52,6 +52,7 @@ module.exports = webpackAsyncContext;
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(39);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -62,17 +63,19 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
-// import { NavController } from 'ionic-angular';
+
 var HomePage = /** @class */ (function () {
-    function HomePage() {
+    function HomePage(navCtrl) {
+        this.navCtrl = navCtrl;
     }
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-home',template:/*ion-inline-start:"C:\Users\User\Desktop\Ellaine\SmartClassroomMobileApp\src\pages\home\home.html"*/'<ion-content padding>\n\n    <page-login></page-login>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\User\Desktop\Ellaine\SmartClassroomMobileApp\src\pages\home\home.html"*/
         }),
-        __metadata("design:paramtypes", [])
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]) === "function" && _a || Object])
     ], HomePage);
     return HomePage;
+    var _a;
 }());
 
 //# sourceMappingURL=home.js.map
@@ -294,7 +297,7 @@ var RoomPage = /** @class */ (function () {
     };
     RoomPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-room',template:/*ion-inline-start:"C:\Users\User\Desktop\Ellaine\SmartClassroomMobileApp\src\pages\room\room.html"*/'<!--\n\n  Generated template for the RoomPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n\n\n<ion-content>\n\n  <ion-card>\n\n    <ion-card-header>\n\n      Room 1\n\n    </ion-card-header>\n\n    <ion-card-content>\n\n      Description\n\n    </ion-card-content>\n\n  </ion-card>\n\n  \n\n  <ion-card>\n\n    <ion-card-header>\n\n      Room 2\n\n    </ion-card-header>\n\n    <ion-card-content>\n\n      Description 2\n\n    </ion-card-content>\n\n  </ion-card>\n\n</ion-content>\n\n  \n\n'/*ion-inline-end:"C:\Users\User\Desktop\Ellaine\SmartClassroomMobileApp\src\pages\room\room.html"*/,
+            selector: 'page-room',template:/*ion-inline-start:"C:\Users\User\Desktop\Ellaine\SmartClassroomMobileApp\src\pages\room\room.html"*/'<!--\n\n  Generated template for the RoomPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n\n\n<ion-content>\n\n  <ion-card>\n\n    <ion-card-header>\n\n      Room 1\n\n    </ion-card-header>\n\n    <ion-card-content>\n\n      Description\n\n    </ion-card-content>\n\n  </ion-card>\n\n  \n\n  <ion-card>\n\n    <ion-card-header>\n\n      Room 2\n\n    </ion-card-header>\n\n    <ion-card-content>\n\n      Description \n\n    </ion-card-content>\n\n  </ion-card>\n\n\n\n  <ion-card>\n\n    <ion-card-header>\n\n      Room 3\n\n    </ion-card-header>\n\n    <ion-card-content>\n\n      Description \n\n    </ion-card-content>\n\n  </ion-card>\n\n\n\n  <ion-card>\n\n    <ion-card-header>\n\n      Room 4\n\n    </ion-card-header>\n\n    <ion-card-content>\n\n      Description \n\n    </ion-card-content>\n\n  </ion-card>\n\n\n\n  <ion-card>\n\n    <ion-card-header>\n\n      Room 5\n\n    </ion-card-header>\n\n    <ion-card-content>\n\n      Description \n\n    </ion-card-content>\n\n  </ion-card>\n\n</ion-content>\n\n  \n\n'/*ion-inline-end:"C:\Users\User\Desktop\Ellaine\SmartClassroomMobileApp\src\pages\room\room.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
     ], RoomPage);

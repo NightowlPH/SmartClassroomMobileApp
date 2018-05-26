@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-// import { NavController } from 'ionic-angular';
+import { NavController } from 'ionic-angular';
 
 @Component({
   selector: 'page-home',
@@ -7,11 +7,8 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  constructor() {
+  
+    constructor(public navCtrl: NavController) {
 
   }
-
-  //   constructor(public navCtrl: NavController) {
-
-  // }
 }
