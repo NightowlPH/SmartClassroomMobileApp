@@ -6,9 +6,9 @@
 -->
 
 <!-- <ion-content> -->
-  <!-- <ion-label header> LOG IN </ion-label> -->
-  <!-- <ion-content overflow-scroll="false"></ion-content> -->
-  <!-- <form>
+<!-- <ion-label header> LOG IN </ion-label> -->
+<!-- <ion-content overflow-scroll="false"></ion-content> -->
+<!-- <form>
     
     <ion-item>
       <ion-label stacked>Username</ion-label>
@@ -24,27 +24,28 @@
 
   </form> -->
 <!-- </ion-content> -->
-  
+
 <div class="login-box">
-  <form (ngSubmit)="login()" #registerForm="ngForm">
-    <ion-row>
-      <ion-col>
-        <ion-list inset>
-              
-              <ion-item>
-                <ion-label stacked class="my-label">Username</ion-label>
-                <ion-input type="text"></ion-input>
-              </ion-item>
-            
-              <ion-item>
-                <ion-label stacked class="my-label">Password</ion-label>
-                <ion-input type="password"></ion-input>
-              </ion-item>
-          
-              <button ion-button (click)="login()">Login</button>
-              
-        </ion-list>
-      </ion-col>
-    </ion-row>
-  </form>
+    <form (ngSubmit)="login()" #registerForm="ngForm">
+        <ion-row>
+            <ion-col>
+                <ion-list inset>
+
+                    <ion-img width="200" height="195" src="/assets/imgs/nightowl-no-network.jpg"></ion-img>
+                    <ion-item>
+                        <ion-label stacked class="my-label">Username</ion-label>
+                        <ion-input type="text"></ion-input>
+                    </ion-item>
+
+                    <ion-item>
+                        <ion-label stacked class="my-label">Password</ion-label>
+                        <ion-input type="password"></ion-input>
+                    </ion-item>
+
+                    <button ion-button (click)="login()">Login</button>
+
+                </ion-list>
+            </ion-col>
+        </ion-row>
+    </form>
 </div>
