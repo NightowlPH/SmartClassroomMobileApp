@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams, MenuController } from 'ionic-angular';
+import { SpecroomPage } from '../specroom/specroom';
 
 /**
  * Generated class for the RoomPage page.
@@ -22,4 +23,7 @@ export class RoomPage {
     console.log('ionViewDidLoad RoomPage');
   }
 
+  room1(){
+    this.navCtrl.push(SpecroomPage);
+  }
 }

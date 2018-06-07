@@ -25,7 +25,6 @@ export class LoginPage {
 
   login(){
     this.navCtrl.push(RoomPage);
-    // console.log("Hello");
   }
   
 

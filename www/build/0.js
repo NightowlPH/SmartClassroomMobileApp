@@ -1,14 +1,14 @@
 webpackJsonp([0],{
 
-/***/ 272:
+/***/ 274:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RoomPageModule", function() { return RoomPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SpecroomPageModule", function() { return SpecroomPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(32);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__room__ = __webpack_require__(99);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__specroom__ = __webpack_require__(100);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,23 +18,23 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var RoomPageModule = /** @class */ (function () {
-    function RoomPageModule() {
+var SpecroomPageModule = /** @class */ (function () {
+    function SpecroomPageModule() {
     }
-    RoomPageModule = __decorate([
+    SpecroomPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__room__["a" /* RoomPage */],
+                __WEBPACK_IMPORTED_MODULE_2__specroom__["a" /* SpecroomPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__room__["a" /* RoomPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__specroom__["a" /* SpecroomPage */]),
             ],
         })
-    ], RoomPageModule);
-    return RoomPageModule;
+    ], SpecroomPageModule);
+    return SpecroomPageModule;
 }());
 
-//# sourceMappingURL=room.module.js.map
+//# sourceMappingURL=specroom.module.js.map
 
 /***/ })
 

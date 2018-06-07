@@ -8,13 +8,15 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { LoginPage } from '../pages/login/login';
 import { RoomPage } from '../pages/room/room';
+import { SpecroomPage } from '../pages/specroom/specroom';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
     LoginPage,
-    RoomPage
+    RoomPage,
+    SpecroomPage
   ],
   imports: [
     BrowserModule,
@@ -25,7 +27,8 @@ import { RoomPage } from '../pages/room/room';
     MyApp,
     HomePage,
     LoginPage,
-    RoomPage
+    RoomPage,
+    SpecroomPage
   ],
   providers: [
     StatusBar,
