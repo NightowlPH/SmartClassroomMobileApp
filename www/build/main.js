@@ -1,4 +1,4 @@
-webpackJsonp([2],{
+webpackJsonp([3],{
 
 /***/ 113:
 /***/ (function(module, exports) {
@@ -23,10 +23,14 @@ webpackEmptyAsyncContext.id = 113;
 var map = {
 	"../pages/login/login.module": [
 		280,
-		1
+		2
 	],
 	"../pages/room/room.module": [
 		281,
+		1
+	],
+	"../pages/specroom/specroom.module": [
+		282,
 		0
 	]
 };
@@ -131,16 +135,16 @@ var HomePage = /** @class */ (function () {
     };
     __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_8" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_4__login_login__["a" /* LoginPage */]),
-        __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_4__login_login__["a" /* LoginPage */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__login_login__["a" /* LoginPage */]) === "function" && _a || Object)
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_4__login_login__["a" /* LoginPage */])
     ], HomePage.prototype, "login", void 0);
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-home',template:/*ion-inline-start:"C:\Users\User\Documents\MyProjects\SmartClassroomMobileApp\src\pages\home\home.html"*/'<!-- <ion-content padding>\n\n    <page-login></page-login>\n\n</ion-content> -->'/*ion-inline-end:"C:\Users\User\Documents\MyProjects\SmartClassroomMobileApp\src\pages\home\home.html"*/
         }),
-        __metadata("design:paramtypes", [typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2__providers_authentication_authentication__["a" /* AuthenticationProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__providers_authentication_authentication__["a" /* AuthenticationProvider */]) === "function" && _c || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_2__providers_authentication_authentication__["a" /* AuthenticationProvider */]])
     ], HomePage);
     return HomePage;
-    var _a, _b, _c;
 }());
 
 //# sourceMappingURL=home.js.map
@@ -213,7 +217,8 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_6__app_component__["a" /* MyApp */], {}, {
                     links: [
                         { loadChildren: '../pages/login/login.module#LoginPageModule', name: 'LoginPage', segment: 'login', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/room/room.module#RoomPageModule', name: 'RoomPage', segment: 'room', priority: 'low', defaultHistory: [] }
+                        { loadChildren: '../pages/room/room.module#RoomPageModule', name: 'RoomPage', segment: 'room', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/specroom/specroom.module#SpecroomPageModule', name: 'SpecroomPage', segment: 'specroom', priority: 'low', defaultHistory: [] }
                     ]
                 })
             ],
@@ -457,10 +462,11 @@ var LoginPage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-login',template:/*ion-inline-start:"C:\Users\User\Documents\MyProjects\SmartClassroomMobileApp\src\pages\login\login.html"*/'<ion-content padding>\n\n    <div class="login-box">\n\n        <form #loginForm="ngForm" (ngSubmit)="login(loginForm.value)">\n\n            <ion-row>\n\n                <ion-col>\n\n                    <ion-list inset>\n\n                        <div text-center>\n\n                            <ion-img width="200" height="196" src="/assets/imgs/nightowl-no-network.jpg"></ion-img>\n\n                        </div>\n\n    \n\n                        <ion-title text-center>\n\n                            Smart Classroom Mobile App\n\n                        </ion-title>\n\n    \n\n                        <br>\n\n    \n\n                        <ion-item>\n\n                            <ion-label stacked class="my-label">Username</ion-label>\n\n                            <ion-input type="text" name="username" ngModel></ion-input>\n\n                        </ion-item>\n\n    \n\n                        <ion-item>\n\n                            <ion-label stacked class="my-label">Password</ion-label>\n\n                            <ion-input type="password" name="password" ngModel></ion-input>\n\n                        </ion-item>\n\n    \n\n                        <p style="color: red">{{message}}</p>\n\n    \n\n                        <button type="submit" ion-button>Login</button>\n\n                    </ion-list>\n\n                </ion-col>\n\n            </ion-row>\n\n        </form>\n\n    </div>\n\n</ion-content>'/*ion-inline-end:"C:\Users\User\Documents\MyProjects\SmartClassroomMobileApp\src\pages\login\login.html"*/,
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2__providers_authentication_authentication__["a" /* AuthenticationProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__providers_authentication_authentication__["a" /* AuthenticationProvider */]) === "function" && _c || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_2__providers_authentication_authentication__["a" /* AuthenticationProvider */]])
     ], LoginPage);
     return LoginPage;
-    var _a, _b, _c;
 }());
 
 //# sourceMappingURL=login.js.map
