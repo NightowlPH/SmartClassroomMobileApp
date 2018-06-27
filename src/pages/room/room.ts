@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams, MenuController } from 'ionic-angular';
+import {AuthenticationProvider} from '../../providers/authentication/authentication';
+import {LoginPage} from '../login/login';
 
 /**
  * Generated class for the RoomPage page.
@@ -15,11 +17,21 @@ import { IonicPage, NavController, NavParams, MenuController } from 'ionic-angul
 })
 export class RoomPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(
+    public navCtrl: NavController, 
+    public navParams: NavParams,
+    public authenticationProvider: AuthenticationProvider
+  ) {
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad RoomPage');
   }
+
+  logout(){
+    this.authenticationProvider.logout();
+    this.navCtrl.push(LoginPage);
+  }
+  
 
 }

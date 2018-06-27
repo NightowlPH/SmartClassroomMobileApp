@@ -1,60 +1,35 @@
-<!--
-  Generated template for the LoginPage page.
-
-  See http://ionicframework.com/docs/components/#navigation for more info on
-  Ionic pages and navigation.
--->
-
-<!-- <ion-content> -->
-<!-- <ion-label header> LOG IN </ion-label> -->
-<!-- <ion-content overflow-scroll="false"></ion-content> -->
-<!-- <form>
+<ion-content padding>
+    <div class="login-box">
+        <form #loginForm="ngForm" (ngSubmit)="login(loginForm.value)">
+            <ion-row>
+                <ion-col>
+                    <ion-list inset>
+                        <div text-center>
+                            <ion-img width="200" height="196" src="/assets/imgs/nightowl-no-network.jpg"></ion-img>
+                        </div>
     
-    <ion-item>
-      <ion-label stacked>Username</ion-label>
-      <ion-input type="text"></ion-input>
-    </ion-item>
-  
-    <ion-item>
-      <ion-label stacked>Password</ion-label>
-      <ion-input type="password"></ion-input>
-    </ion-item>
-
-    <button ion-button (click)="login()">Login</button>
-
-  </form> -->
-<!-- </ion-content> -->
-
-<div class="login-box">
-    <form (ngSubmit)="login()" #registerForm="ngForm">
-        <ion-row>
-            <ion-col>
-                <ion-list inset>
-
-                    <div text-center>
-                        <ion-img width="200" height="196" src="/assets/imgs/nightowl-no-network.jpg"></ion-img>
-                    </div>
-
-                    <ion-title text-center>
-                        Smart Classroom Mobile App
-                    </ion-title>
-
-                    <br>
-
-                    <ion-item>
-                        <ion-label stacked class="my-label">Username</ion-label>
-                        <ion-input type="text"></ion-input>
-                    </ion-item>
-
-                    <ion-item>
-                        <ion-label stacked class="my-label">Password</ion-label>
-                        <ion-input type="password"></ion-input>
-                    </ion-item>
-
-                    <button ion-button (click)="login()">Login</button>
-
-                </ion-list>
-            </ion-col>
-        </ion-row>
-    </form>
-</div>
+                        <ion-title text-center>
+                            Smart Classroom Mobile App
+                        </ion-title>
+    
+                        <br>
+    
+                        <ion-item>
+                            <ion-label stacked class="my-label">Username</ion-label>
+                            <ion-input type="text" name="username" ngModel></ion-input>
+                        </ion-item>
+    
+                        <ion-item>
+                            <ion-label stacked class="my-label">Password</ion-label>
+                            <ion-input type="password" name="password" ngModel></ion-input>
+                        </ion-item>
+    
+                        <p style="color: red">{{message}}</p>
+    
+                        <button type="submit" ion-button>Login</button>
+                    </ion-list>
+                </ion-col>
+            </ion-row>
+        </form>
+    </div>
+</ion-content>
