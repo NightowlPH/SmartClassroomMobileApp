@@ -9,7 +9,7 @@ import {LoginPage} from '../login/login';
   templateUrl: 'home.html'
 })
 export class HomePage {
-  @ViewChild (LoginPage) login: LoginPage;
+  // @ViewChild (LoginPage) login: LoginPage;
   
   constructor(
     public navCtrl: NavController,

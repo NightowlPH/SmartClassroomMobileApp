@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { IonicPage, NavController, NavParams, MenuController } from 'ionic-angular';
 import { HttpErrorResponse } from '@angular/common/http';
 import {AuthenticationProvider} from '../../providers/authentication/authentication';
 import {RoomPage} from '../room/room';
@@ -25,8 +25,10 @@ export class LoginPage {
 	constructor(
 		public navCtrl: NavController, 
 		public navParams: NavParams,
+		public menuCtrl: MenuController,
 		public authenticationProvider: AuthenticationProvider
 	) {
+		this.menuCtrl.enable(false, 'myMenu');
 	}
 
 	ionViewDidLoad() {

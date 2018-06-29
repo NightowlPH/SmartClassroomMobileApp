@@ -20,17 +20,13 @@ export class RoomPage {
   constructor(
     public navCtrl: NavController, 
     public navParams: NavParams,
+    public menuCtrl: MenuController,
     public authenticationProvider: AuthenticationProvider
   ) {
+    this.menuCtrl.enable(true, 'myMenu'); //enables sidemenu
   }
-
   ionViewDidLoad() {
     console.log('ionViewDidLoad RoomPage');
-  }
-
-  logout(){
-    this.authenticationProvider.logout();
-    this.navCtrl.push(LoginPage);
   }
   
 
