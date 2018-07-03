@@ -1,14 +1,14 @@
 webpackJsonp([0],{
 
-/***/ 284:
+/***/ 282:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SpecroomPageModule", function() { return SpecroomPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(28);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__specroom__ = __webpack_require__(285);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(33);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__specroom__ = __webpack_require__(283);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -38,13 +38,13 @@ var SpecroomPageModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 285:
+/***/ 283:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SpecroomPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(33);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -72,9 +72,9 @@ var SpecroomPage = /** @class */ (function () {
     };
     SpecroomPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-specroom',template:/*ion-inline-start:"C:\Users\User\Documents\MyProjects\SmartClassroomMobileApp\src\pages\specroom\specroom.html"*/'<div class="room1">\n\n\n\n    <ion-header>\n\n        <ion-navbar>\n\n            <ion-title>Room 1</ion-title>\n\n        </ion-navbar>\n\n    </ion-header>\n\n\n\n</div>'/*ion-inline-end:"C:\Users\User\Documents\MyProjects\SmartClassroomMobileApp\src\pages\specroom\specroom.html"*/,
+            selector: 'page-specroom',template:/*ion-inline-start:"C:\Users\gabot\Documents\GitHub\SmartClassroomMobileApp\src\pages\specroom\specroom.html"*/'<div class="room1">\n\n\n\n    <ion-header>\n\n        <ion-navbar>\n\n            <ion-title>Room 1</ion-title>\n\n        </ion-navbar>\n\n    </ion-header>\n\n\n\n</div>'/*ion-inline-end:"C:\Users\gabot\Documents\GitHub\SmartClassroomMobileApp\src\pages\specroom\specroom.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]])
     ], SpecroomPage);
     return SpecroomPage;
 }());

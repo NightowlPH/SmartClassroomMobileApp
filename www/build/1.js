@@ -1,14 +1,14 @@
 webpackJsonp([1],{
 
-/***/ 282:
+/***/ 281:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SidemenuContentPageModule", function() { return SidemenuContentPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RoomPageModule", function() { return RoomPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(28);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__sidemenu_content__ = __webpack_require__(201);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(33);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__room__ = __webpack_require__(52);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,23 +18,23 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var SidemenuContentPageModule = /** @class */ (function () {
-    function SidemenuContentPageModule() {
+var RoomPageModule = /** @class */ (function () {
+    function RoomPageModule() {
     }
-    SidemenuContentPageModule = __decorate([
+    RoomPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__sidemenu_content__["a" /* SidemenuContentPage */],
+                __WEBPACK_IMPORTED_MODULE_2__room__["a" /* RoomPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__sidemenu_content__["a" /* SidemenuContentPage */]),
-            ]
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__room__["a" /* RoomPage */]),
+            ],
         })
-    ], SidemenuContentPageModule);
-    return SidemenuContentPageModule;
+    ], RoomPageModule);
+    return RoomPageModule;
 }());
 
-//# sourceMappingURL=sidemenu-content.module.js.map
+//# sourceMappingURL=room.module.js.map
 
 /***/ })
 
