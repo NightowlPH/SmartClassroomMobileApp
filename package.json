@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
     "name": "SmartClassroomMobileApp",
     "version": "0.0.1",
     "author": "Ionic Framework",
@@ -38,7 +37,6 @@
         "typescript": "~2.6.2"
     },
     "description": "An Ionic project"
-=======
   "name": "SmartClassroomMobileApp",
   "version": "0.0.1",
   "author": "Ionic Framework",
@@ -77,5 +75,4 @@
     "typescript": "~2.6.2"
   },
   "description": "An Ionic project"
->>>>>>> e32fdf0e742b5bff4bf9e17be30726f4b80157e9
 }
